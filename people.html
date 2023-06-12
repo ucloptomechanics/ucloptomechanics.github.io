@@ -1,0 +1,18 @@
+---
+layout: default
+title: "People"
+permalink: /people
+---
+
+<h1>People</h1>
+
+{% for person in site.people %}
+<div style="margin-bottom: 20px;">
+  <!-- in line styling not best practice, pls fix -->
+  <h3>{{ person.name }}</h3>
+  <h4>{{ person.position }}</h4>
+  Email: <a href="{{ person.email }}">{{ person.email }}</a>
+  &nbsp; &nbsp;<a href="{{ person.url }}">Bio</a>
+</div>
+{% endfor %}
+
