@@ -1,8 +1,17 @@
 ---
 layout: default
 ---
-<div class="container-fluid">
+<div class="container-fluid text-center">
+  <div class="container-fluid">
   <h1>{{ page.name }}</h1>
+  </div>
+  <div class="container-fluid">
+    <img src="{{ page.picture }}" />
+  </div>
+  <div class="container-fluid">
   <h2>{{ page.position }}</h2> 
-  {{ content }}
+  </div>
+  <div class="container-fluid">
+    {{ content }}
+  </div>
 </div>

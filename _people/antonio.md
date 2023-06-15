@@ -3,6 +3,7 @@ name: Antonio Pontin
 position: Research Fellow, Senior Postdoc
 email: a.pontin@ucl.ac.uk
 title: Dr. Antonio Pontin
+picture: /assets/images/people/antonio.jpg
 permalink: /people/antonio
 ---
 

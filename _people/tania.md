@@ -3,6 +3,7 @@ name: Tania S. Monteiro
 position: Professor
 email: t.monteiro@ucl.ac.uk
 title: Prof. Tania Monteiro
+picture: /assets/images/people/tania.jpg
 permalink: /people/tania
 ---
 

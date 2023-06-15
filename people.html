@@ -6,8 +6,12 @@ permalink: /people
 
 <h1>People</h1>
 
+<div class="container-fluid">
 {% for person in site.people %}
-<div class="card" style="width: 20rem;" >
+<div class="row">
+<div class="card" style="width: 80%;" >
+<div class="row">
+<div class="col-8">
   <div class="card-body">
     <h3 class="card-title">{{ person.name }}</h3>
     <h5 class="card-subtitle">{{ person.position }}</h4>
@@ -15,5 +19,12 @@ permalink: /people
     <a class="class-link" href="{{ person.url }}">Bio</a>
   </div>
 </div>
+<div class="col-4">
+  <img style="max-height:10rem;" src="{{ person.picture }}"></div>
+</div>
+</div>
+</div>
+</div>
 {% endfor %}
+</div>
 
